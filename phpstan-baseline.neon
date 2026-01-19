@@ -1,0 +1,19 @@
+parameters:
+	ignoreErrors:
+		-
+			rawMessage: Trait App\Actions\Fortify\PasswordValidationRules is used zero times and is not analysed.
+			identifier: trait.unused
+			count: 1
+			path: app/Actions/Fortify/PasswordValidationRules.php
+
+		-
+			rawMessage: 'Method App\Http\Requests\Settings\ProfileDeleteRequest::rules() has invalid return type App\Http\Requests\Settings\ValidationRule.'
+			identifier: class.notFound
+			count: 1
+			path: app/Http/Requests/Settings/ProfileDeleteRequest.php
+
+		-
+			rawMessage: 'Parameter #1 $string of function rtrim expects string, bool|string|null given.'
+			identifier: argument.type
+			count: 1
+			path: config/filesystems.php
